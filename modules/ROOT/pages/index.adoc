@@ -21,4 +21,4 @@ The sample API provides the following operations:
 
 == OpenAPI specification
 
-The OpenAPI specification for this version is available as part of this documentation.
+Download the xref:attachment$openapi.yaml[OpenAPI specification].
