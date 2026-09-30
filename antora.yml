@@ -1,0 +1,5 @@
+name: api-docs
+title: API Documentation
+version: '1.0'
+nav:
+  - modules/ROOT/nav.adoc
