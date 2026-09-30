@@ -3,10 +3,10 @@ openapi: 3.0.3
 info:
   title: Sample Payments API
   description: Sample API used in the Antora documentation POC.
-  version: 1.0.0
+  version: 2.0.0
 
 servers:
-  - url: https://api.example.com/v1
+  - url: https://api.example.com/v2
 
 paths:
   /payments:
@@ -38,5 +38,22 @@ paths:
       responses:
         '200':
           description: Payment details
+        '404':
+          description: Payment not found
+
+  /payments/{paymentId}/refund:
+    post:
+      summary: Refund a payment
+      operationId: refundPayment
+      parameters:
+        - name: paymentId
+          in: path
+          required: true
+          description: Unique payment identifier
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Payment refunded
         '404':
           description: Payment not found
