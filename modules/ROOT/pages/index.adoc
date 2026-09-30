@@ -1,0 +1,24 @@
+= API Documentation
+
+Welcome to version 1.0 of the sample API documentation.
+
+The API allows applications to interact with the sample payment platform.
+
+== Base URL
+
+[source,text]
+----
+https://api.example.com/v1
+----
+
+== Available operations
+
+The sample API provides the following operations:
+
+* Retrieve payments
+* Retrieve a payment by ID
+* Create a payment
+
+== OpenAPI specification
+
+The OpenAPI specification for this version is available as part of this documentation.
