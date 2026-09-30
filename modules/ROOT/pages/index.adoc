@@ -26,4 +26,4 @@ Version 2.0 introduces support for payment refunds.
 
 == OpenAPI specification
 
-The OpenAPI specification for this version is available as part of this documentation.
+Download the xref:attachment$openapi.yaml[OpenAPI specification].
