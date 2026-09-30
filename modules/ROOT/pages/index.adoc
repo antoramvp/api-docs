@@ -1,6 +1,6 @@
 = API Documentation
 
-Welcome to version 1.0 of the sample API documentation.
+Welcome to version 2.0 of the sample API documentation.
 
 The API allows applications to interact with the sample payment platform.
 
@@ -8,7 +8,7 @@ The API allows applications to interact with the sample payment platform.
 
 [source,text]
 ----
-https://api.example.com/v1
+https://api.example.com/v2
 ----
 
 == Available operations
@@ -18,6 +18,11 @@ The sample API provides the following operations:
 * Retrieve payments
 * Retrieve a payment by ID
 * Create a payment
+* Refund a payment
+
+== What's new in version 2.0
+
+Version 2.0 introduces support for payment refunds.
 
 == OpenAPI specification
 
