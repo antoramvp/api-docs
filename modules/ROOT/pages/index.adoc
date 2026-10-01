@@ -22,3 +22,22 @@ The sample API provides the following operations:
 == OpenAPI specification
 
 Download the xref:attachment$openapi.yaml[OpenAPI specification].
+
+== API reference
+
+++++
+<link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@5/swagger-ui.css">
+
+<div id="swagger-ui"></div>
+
+<script src="https://unpkg.com/swagger-ui-dist@5/swagger-ui-bundle.js"></script>
+
+<script>
+window.addEventListener('load', function () {
+  SwaggerUIBundle({
+    url: '../_attachments/openapi.yaml',
+    dom_id: '#swagger-ui'
+  });
+});
+</script>
+++++
