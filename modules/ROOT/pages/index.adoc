@@ -1,3 +1,5 @@
+NOTE: This page comes from repository No. 3: `api-docs`. This repository uses separate branches for versioned documentation.
+
 = API Documentation
 
 Welcome to version 2.0 of the sample API documentation.
