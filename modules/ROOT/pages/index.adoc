@@ -1,6 +1,6 @@
 = API Documentation
 
-NOTE: This section comes from repository No. 3: `api-docs`. This repository uses separate branches for versioned documentation.
+NOTE: This section comes from repository No. 3: api-docs. The repository uses separate branches for versioned documentation. This sample also includes an OpenAPI specification file and a rendered Swagger UI generated from the same specification.
 
 Welcome to version 2.0 of the sample API documentation.
 
