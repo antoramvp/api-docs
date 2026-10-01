@@ -35,7 +35,7 @@ Download the xref:attachment$openapi.yaml[OpenAPI specification].
 <script>
 window.addEventListener('load', function () {
   SwaggerUIBundle({
-    url: '../_attachments/openapi.yaml',
+    url: '_attachments/openapi.yaml',
     dom_id: '#swagger-ui'
   });
 });
